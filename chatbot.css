@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #031321;
+    font-family: consolas;
+    color: black;
+  }
+  
+  header{
+    color:rgb(231, 231, 37);
+    text-align: center;
+    font-size: xx-large;
+    margin: 2vw;
+    
+  }
+  .test {
+    color:aliceblue;
+  }
+
+  #voiceSelect{
+    max-width: 40vw;
+  }
+
+  .link{
+    color:yellowgreen;
+    font-size: large;
+    float:right;
+    margin:1vw;
+    max-width: 40vw;
+    
+  }
+  .chatButton{
+    margin: 1vw; 
+    padding: 15px 30px;
+    color: black;
+    min-width:100px;
+    min-height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;  
+    text-align: center;
+  }
+
+  .chatButton:hover{
+    color: #255784;
+    background: #ee87c3;
+    box-shadow: 0 0 10px #ee50b9, 0 0 40px #ee50b9, 0 0 80px #ee50b9;
+  }
+
+
+    select{ 
+    margin:20px; 
+    border: 2px solid #dedede;
+    width:500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+  }
+  .voice, .stop {
+    position:sticky;
+    top:0px; 
+    left:10px;
+    margin-bottom:10px; 
+    margin-top:10px; 
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: large;
+    overflow: hidden;
+    transition: 0.2s;
+    max-width:15vw;
+  
+    text-align: center;
+  }
+  
+  .stop{
+    position:sticky;
+    top:70px; 
+  }
+  .voice:hover, .stop:hover  {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  }
+  
+  .chat-container  {
+    border: 2px solid #dedede;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    max-width:50vw;
+
+  }
+  
+
+
+  .chat-container p {
+    background-color: white;
+    font-family: Helvetica;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ffc0e3;
+  }
+  
+  .darker p {
+    background-color: #ffc0f1;
+  }
+  
+  /* Clear floats */
+  .chat-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .chat-container img {
+    float: left;
+    max-width: 60vw;
+    max-height: 60vh;
+    width: 100%;
+    margin-right: 2vw;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+  .chat-container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }
